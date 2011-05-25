@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PHP_BINARY="/usr/bin/php"
+PHP_BINARY="/opt/local/bin/php"
 if [ ! -f $PHP_BINARY ]; then
 	PHP_BINARY=$(which php)
 	if [ $? -ne 0 ]; then
